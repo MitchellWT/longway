@@ -1,6 +1,10 @@
 
-#comp {
+#map {
 	padding: 10px;
+	width: 60vw;
+	max-width: 60vw;
+	height: 500px;
+	max-height: 60vw;
 }
 
 .main {
