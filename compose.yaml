@@ -1,0 +1,12 @@
+
+services:
+    web:
+        image: docker.io/nginx
+        volumes:
+            - ./web:/usr/share/nginx/web
+            - ./default.conf:/etc/nginx/conf.d/default.conf
+        ports:
+            - 8080:80
+        environment:
+             - NGINX_PORT=80
+
